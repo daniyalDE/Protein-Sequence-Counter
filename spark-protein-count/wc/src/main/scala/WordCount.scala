@@ -69,6 +69,6 @@ object WordCount {
       writer.close
 
       // Save the word count back out to a text file, causing evaluation.
-      // counts.saveAsTextFile(outputFile)
+      counts.saveAsTextFile(outputFile)
     }
 }
