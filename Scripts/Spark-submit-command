@@ -1,0 +1,10 @@
+spark-submit \
+ --class Kmers \
+ --master yarn \
+ --deploy-mode client \
+ uber-wc-1.0-SNAPSHOT.jar "test.txt" "intermediate-data/csvFiles"
+
+SPARK_LOCAL_DIRS=~/storage/spark/local
+
+
+page 31, 35
